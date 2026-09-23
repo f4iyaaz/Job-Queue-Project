@@ -21,6 +21,7 @@ Users submit jobs (like sending emails or resizing images). The API instantly re
 ---
 
 ## Project Structure
+
 job-queue-project/
 ├── app/
 │ ├── main.py # API endpoints
