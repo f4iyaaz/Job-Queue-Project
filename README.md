@@ -21,3 +21,15 @@ Users submit jobs (like sending emails or resizing images). The API instantly re
 ---
 
 ## Project Structure
+job-queue-project/
+├── app/
+│ ├── main.py # API endpoints
+│ ├── models.py # Database Job model
+│ ├── schemas.py # Request/response formats
+│ ├── database.py # Database connection
+│ └── init.py
+├── worker.py # Background job processor
+├── requirements.txt # Dependencies
+├── .env # Environment variables (local)
+├── .gitignore
+└── README.md
