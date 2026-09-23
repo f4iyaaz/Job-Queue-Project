@@ -271,18 +271,3 @@ curl http://localhost:8000/jobs/$JOB_ID
 
 ---
 
-## Deployment
-
-Coming soon - deploying to Render with instructions.
-
----
-
-## Author
-
-Your Name
-
----
-
-## License
-
-MIT
