@@ -253,13 +253,13 @@ curl http://localhost:8000/jobs/$JOB_ID
 ---
 
 ## What I Learned
-
+```
 ✅ Asynchronous job processing patterns
 ✅ Message queue architecture
 ✅ Decoupling API from long-running tasks
 ✅ Scalable system design
 ✅ Database job tracking
-
+```
 ---
 
 ## Future Enhancements
