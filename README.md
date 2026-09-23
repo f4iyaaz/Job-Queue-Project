@@ -33,3 +33,42 @@ job-queue-project/
 ├── .env # Environment variables (local)
 ├── .gitignore
 └── README.md
+
+
+---
+
+## Local Setup
+
+### Prerequisites
+
+- Python 3.9+
+- PostgreSQL
+- Redis (or Docker)
+
+### Installation
+
+1. Clone and setup:
+
+```bash
+git clone <your-repo>
+cd job-queue-project
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+2. Create PostgreSQL database:
+
+```bash
+psql -U postgres
+CREATE DATABASE job_queue;
+\q
+```
+
+3. Start Redis (with Docker):
+
+```bash
+docker run -d -p 6379:6379 redis
+```
+
+4. Create `.env` file:
